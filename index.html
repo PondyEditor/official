@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pondy Editor – Video editing, digital marketing and Meta ads in Puducherry</title>
+<meta name="description" content="Video shooting, editing, digital marketing and Meta ads in Puducherry. From capture to delivery.">
+<meta name="theme-color" content="#17181c">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Pondy Editor – Video editing, digital marketing and Meta ads in Puducherry">
+<meta property="og:description" content="Video shooting, editing, digital marketing and Meta ads in Puducherry. From capture to delivery.">
+<meta property="og:image" content="images/logo.png">
+<link rel="icon" href="images/logo.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Pondy Editor","description":"Video shooting, editing, digital marketing and Meta ads in Puducherry.","telephone":"+918270064104","address":{"@type":"PostalAddress","streetAddress":"Rajive Gandhi Nagar, Thavalakuppam","addressLocality":"Puducherry","addressCountry":"IN"}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add("js")</script>
+<style>
+:root{--bg:#17181c;--bg2:#202127;--ink:#f4efe4;--mute:#a8aab5;--y:#ffc21a;--dk:#1b1c20;--line:#34363e;--pad:clamp(20px,5vw,88px)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;overflow-x:hidden}
+body{margin:0;width:100%;overflow-x:hidden;background:var(--bg);color:var(--ink);font:clamp(17px,1.15vw,19px)/1.6 Barlow,system-ui,sans-serif}
+h1,h2,h3{font-family:"Barlow Condensed",system-ui,sans-serif;margin:0;line-height:1;letter-spacing:.005em}
+a{color:inherit}
+.skip{position:absolute;left:12px;top:-60px;z-index:100;background:var(--y);color:var(--dk);padding:10px 18px;border-radius:999px;font-weight:700;text-decoration:none}
+.skip:focus{top:12px}
+section[id],#hero{scroll-margin-top:72px}
+img{max-width:100%}
+.wrap{width:100%;max-width:1760px;margin:0 auto;padding-inline:var(--pad)}
+#bar{position:fixed;top:0;left:0;height:3px;width:100%;background:var(--y);transform:scaleX(0);transform-origin:0 50%;z-index:50}
+header.top{position:sticky;top:0;z-index:40;width:100%;background:rgba(23,24,28,.85);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+nav{display:flex;justify-content:space-between;align-items:center;height:72px}
+.logo{display:flex;align-items:center;gap:12px;font:800 30px/1 "Barlow Condensed",sans-serif;text-transform:uppercase;letter-spacing:.04em;text-decoration:none}
+.logo img{border-radius:10px;display:block;transition:transform .5s}
+.logo:hover img{transform:rotate(-8deg) scale(1.1)}
+nav div{display:flex;align-items:center;gap:30px}
+nav div a:not(.btn){text-decoration:none;color:var(--mute);font:600 17px Barlow,sans-serif;letter-spacing:.03em;position:relative}
+nav div a:not(.btn)::after{content:"";position:absolute;left:0;right:0;bottom:-6px;height:2px;background:var(--y);transform:scaleX(0);transition:transform .3s;transform-origin:0 50%}
+nav div a:not(.btn):hover{color:var(--ink)}
+nav div a:not(.btn):hover::after{transform:scaleX(1)}
+.btn{display:inline-block;background:var(--y);color:var(--dk)!important;border:0;border-radius:999px;padding:15px 30px;letter-spacing:.02em;font:700 17px Barlow,sans-serif;cursor:pointer;text-decoration:none;transition:transform .2s,box-shadow .3s,background .3s}
+.btn:hover{box-shadow:0 12px 32px rgba(255,194,26,.35);background:#ffd24d}
+.btn.ghost{background:transparent;border:1.5px solid var(--line);color:var(--ink)!important}
+.btn.ghost:hover{border-color:var(--y);box-shadow:none;background:rgba(255,194,26,.08)}
+nav .btn{padding:11px 24px}
+:focus-visible{outline:3px solid var(--y);outline-offset:3px}
+
+.hero{position:relative;width:100%;min-height:calc(100svh - 72px);display:flex;align-items:center;overflow:hidden;
+ --hero-img:url("images/hero-bg.jpg"); /* replace images/hero-bg.jpg with your own photo */
+ background:var(--hero-img) center/cover no-repeat,var(--bg)}
+.hero .wrap{display:grid;grid-template-columns:.9fr 1.3fr;gap:clamp(24px,3vw,56px);align-items:center;padding-block:56px}
+.hc{position:relative}
+.hero h1,.hero p,.pts{text-shadow:0 2px 20px rgba(0,0,0,.6),0 1px 3px rgba(0,0,0,.7)}
+.hero h1{font-size:clamp(46px,6.6vw,124px);font-weight:800;line-height:.98;text-transform:uppercase}.hero h1 .hl i{color:var(--y)}
+.hero h1 span{display:inline-block;overflow:hidden;vertical-align:bottom;padding-bottom:.08em}
+.hero h1 i{display:inline-block;font-style:normal;animation:up .9s cubic-bezier(.2,.8,.2,1) both;animation-delay:calc(var(--n)*90ms)}
+@keyframes up{from{transform:translateY(110%) rotate(4deg);opacity:0}}
+@keyframes rise{from{opacity:0;transform:translateY(26px)}}
+@keyframes shine{to{background-position:-250% 0}}
+.hero h1 .hl i{background:linear-gradient(100deg,var(--y) 0 42%,#fff3c4 50%,var(--y) 58% 100%) 0 0/250% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:none;filter:drop-shadow(0 2px 14px rgba(0,0,0,.55));
+ animation:up .9s cubic-bezier(.2,.8,.2,1) both,shine 5s linear 2.4s infinite;animation-delay:calc(var(--n)*90ms),2.4s}
+.hc p{animation:rise .9s cubic-bezier(.2,.8,.2,1) .85s both}
+.hc .cta{animation:rise .9s cubic-bezier(.2,.8,.2,1) 1.0s both}
+.hc .pts{animation:rise .9s cubic-bezier(.2,.8,.2,1) 1.15s both}
+.hc .pts li{transition:transform .3s,color .3s}.hc .pts li:hover{transform:translateX(6px);color:var(--y)}
+.hero .btn{position:relative;overflow:hidden}
+.hero .btn:not(.ghost)::after{content:"";position:absolute;top:0;bottom:0;left:-60%;width:40%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.55),transparent);transform:skewX(-20deg);animation:sweep 4.5s ease-in-out 2.5s infinite}
+@keyframes sweep{0%,60%{left:-60%}100%{left:130%}}
+html.intro .hero *,html.intro .hero *::after{animation-play-state:paused!important}
+.hero p{font-size:clamp(18px,1.5vw,23px);color:#cfd0d8;max-width:52ch;margin:28px 0 36px}
+.pts{display:flex;flex-wrap:wrap;gap:12px 28px;margin:34px 0 0;padding:0;list-style:none;font-weight:600;font-size:.95em}
+.pts li{display:flex;align-items:center;gap:10px}
+.pts li::before{content:"";width:20px;height:20px;border-radius:50%;background:var(--y) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M5.5 10.5l3 3 6-6.5' fill='none' stroke='%231b1c20' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/contain no-repeat}
+.cta{display:flex;gap:14px;flex-wrap:wrap}
+.stage{position:relative;perspective:1500px;height:clamp(460px,50vw,900px)}
+.scene{position:absolute;inset:0;transform-style:preserve-3d;transform:rotateX(var(--rx,8deg)) rotateY(var(--ry,-18deg));transition:transform .25s ease-out}
+.ly{position:absolute;transform-style:preserve-3d;animation:fl 6s ease-in-out infinite}
+@keyframes fl{50%{translate:0 -16px}}
+@keyframes spin{to{rotate:360deg}}
+.orbs{position:absolute;inset:0;display:grid;place-items:center;transform-style:preserve-3d}
+.orb{grid-area:1/1;position:relative;aspect-ratio:1;animation:fl 7s ease-in-out infinite}
+.rot{width:100%;height:100%}
+.rot img{width:100%;height:100%;display:block;object-fit:contain;background:none;border:0;box-shadow:none}
+.o1{width:90%;transform:translateZ(0)}
+.o1 .rot{animation:spin 40s linear infinite}
+.o2{width:62%;transform:translateZ(70px);animation-delay:-2.5s}
+.o2 .rot{animation:spin 30s linear infinite reverse}
+.o3{width:34%;transform:translateZ(140px);animation-delay:-4.5s}
+.o3 .rot{animation:spin 22s linear infinite}
+.bd{background:var(--ink);color:var(--dk);font:800 clamp(18px,1.7vw,28px) "Barlow Condensed",sans-serif;letter-spacing:.03em;text-transform:uppercase;padding:12px 26px;border-radius:999px;box-shadow:0 20px 40px rgba(0,0,0,.5)}
+.b1{right:8%;top:6%;transform:translateZ(170px);background:var(--y);animation-delay:-1s}
+.b2{left:0;bottom:12%;transform:translateZ(140px);animation-delay:-3.5s}
+
+.mq{width:100%;overflow:hidden;background:var(--y);color:var(--dk);border-block:1px solid #000}
+.mq div{display:flex;width:max-content;animation:mq 32s linear infinite}
+.mq:hover div{animation-play-state:paused}
+.mq span{font:800 clamp(18px,2vw,28px) "Barlow Condensed",sans-serif;padding:16px 32px;white-space:nowrap}
+.mq span::after{content:"";display:inline-block;width:10px;height:10px;background:var(--dk);border-radius:50%;margin-left:64px}
+@keyframes mq{to{transform:translateX(-50%)}}
+
+section{width:100%;padding:clamp(72px,9vw,150px) 0}
+.alt{background:var(--bg2)}
+.sh{max-width:760px;margin-bottom:clamp(36px,4vw,64px)}
+.sh h2{font-size:clamp(42px,5.8vw,96px);font-weight:800;text-transform:uppercase}
+.sh p{color:var(--mute);margin:16px 0 0}
+.grid{display:grid;gap:clamp(16px,2vw,32px)}
+.g3{grid-template-columns:repeat(3,1fr)}
+.g4{grid-template-columns:repeat(4,1fr)}
+.card{background:var(--bg2);border:1px solid var(--line);border-radius:22px;padding:clamp(26px,2.6vw,44px)}
+.alt .card{background:var(--bg)}
+.card:hover{border-color:var(--y)}
+.ic{width:62px;height:62px;border-radius:16px;background:var(--y);display:grid;place-items:center;margin-bottom:26px;transform:translateZ(50px);box-shadow:0 14px 28px rgba(255,194,26,.25)}
+.ic svg{width:30px;height:30px;stroke:var(--dk);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.card h3{font-size:clamp(28px,2.4vw,40px);font-weight:700;margin-bottom:12px;transform:translateZ(34px)}
+.card p{margin:0 0 18px;color:var(--mute)}
+.card ul{margin:0;padding:0;list-style:none;font-size:.95em}
+.card li{padding:9px 0;border-top:1px solid var(--line);transition:padding .3s,color .3s}
+.card li:hover{padding-left:12px;color:var(--y)}
+.st b{font:700 18px "Barlow Condensed",sans-serif;color:var(--y);display:block;margin-bottom:8px}
+.st h3{font-size:clamp(26px,2.1vw,34px)}
+.st p{margin:10px 0 0}
+.work{align-items:start}
+.reel{margin:0;max-width:420px;width:100%;justify-self:center}
+.frame{position:relative;aspect-ratio:9/16;border-radius:22px;overflow:hidden;background:var(--bg2);border:1px solid var(--line);box-shadow:0 30px 60px rgba(0,0,0,.45)}
+.frame video,.frame iframe{width:100%;height:100%;object-fit:cover;border:0;display:block}
+.ph{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px;color:var(--mute);background:linear-gradient(160deg,#2e2f38,#17181c)}
+.ph b{color:var(--ink);font:700 19px "Barlow Condensed",sans-serif;margin-bottom:6px}
+.snd{position:absolute;right:12px;bottom:12px;z-index:2;background:rgba(23,24,28,.85);color:#fff;border:1px solid var(--line);border-radius:999px;padding:8px 14px;font:600 13px Barlow,sans-serif;cursor:pointer}
+.snd:hover{border-color:var(--y)}
+.reel figcaption{margin-top:18px}
+.reel figcaption b{display:block;font:700 21px "Barlow Condensed",sans-serif}
+.reel figcaption span{color:var(--mute);font-size:.95em}
+.why{border-left:3px solid var(--y)}
+.cgrid{display:grid;grid-template-columns:1fr 1.15fr;gap:clamp(32px,5vw,100px);align-items:start}
+.info h2{font-size:clamp(42px,5.8vw,96px);font-weight:800;text-transform:uppercase}
+.info p{color:var(--mute);margin:20px 0 0;max-width:46ch}
+.info dl{margin:36px 0 0}
+.info dt{color:var(--mute);font-size:14px;margin-top:22px}
+.info dd{margin:2px 0 0;font:600 clamp(20px,1.7vw,26px) Barlow,sans-serif}
+.info dd a{text-decoration:none}.info dd a:hover{color:var(--y)}
+form{background:var(--bg2);border:1px solid var(--line);border-radius:24px;padding:clamp(24px,3vw,48px)}
+form label{display:block;font-weight:700;font-size:15px;margin-top:18px}
+form .two label{margin-top:0}
+form input,form select,form textarea{width:100%;margin-top:7px;padding:14px;border:1px solid var(--line);border-radius:12px;font:inherit;background:var(--bg);color:var(--ink);transition:border-color .25s,box-shadow .25s}
+form input:focus,form select:focus,form textarea:focus{outline:0;border-color:var(--y);box-shadow:0 0 0 4px rgba(255,194,26,.18)}
+form .two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+form .btn{margin-top:26px;width:100%}
+#msg{margin-top:16px;font-weight:600;min-height:1.5em}
+.hp{position:absolute;left:-9999px}
+.nc{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;-webkit-user-drag:none}
+.nc img{display:block;max-width:100%;height:auto;-webkit-user-select:none;user-select:none;-webkit-user-drag:none}
+.info h2.timg{font-size:0}
+.timg img{width:calc(clamp(42px,5.8vw,96px) * 5.563)}
+.ctext{margin:20px 0 0}
+.ctext img{width:407px}
+@media(max-width:560px){.ctext img{width:288px}}
+.citem{display:block;margin-top:22px;text-align:left;background:none;border:0;padding:0;font:inherit;color:inherit}
+button.citem{cursor:pointer;transition:transform .25s,opacity .25s}
+button.citem:hover{transform:translateX(6px);opacity:.85}
+.citem img{width:calc(clamp(20px,1.7vw,26px) * var(--r))}
+.cinfo{margin-top:36px}
+.cinfo .citem:first-child{margin-top:0}
+.fimg{display:block;width:289px;max-width:100%;height:auto;-webkit-user-select:none;user-select:none;-webkit-user-drag:none}
+footer{width:100%;border-top:1px solid var(--line);padding:32px 0 clamp(44px,8vw,96px);color:var(--mute);font-size:15px}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.wa{position:fixed;right:20px;bottom:20px;z-index:45;background:#25d366;color:#07210f;font-weight:700;border-radius:999px;padding:13px 22px;text-decoration:none;box-shadow:0 8px 24px rgba(0,0,0,.4);transition:transform .25s}
+.wa:hover{transform:translateY(-4px) scale(1.05)}
+
+[data-tilt]{position:relative;transform-style:preserve-3d;transition:transform .25s ease-out,border-color .3s}
+[data-tilt]::after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;opacity:0;transition:opacity .3s;background:radial-gradient(380px circle at var(--mx,50%) var(--my,50%),rgba(255,194,26,.18),transparent 55%)}
+[data-tilt]:hover::after{opacity:1}
+@property --ang{syntax:"<angle>";inherits:false;initial-value:0deg}
+@keyframes ray{to{--ang:360deg}}
+[data-tilt]::before{content:"";position:absolute;inset:-1px;border-radius:inherit;padding:3px;pointer-events:none;z-index:3;opacity:0;transition:opacity .35s;
+ background:conic-gradient(from var(--ang),transparent 0 62%,rgba(255,194,26,.12) 74%,rgba(255,194,26,.75) 90%,#fff7d6 99%,transparent 100%);
+ -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;
+ mask:linear-gradient(#000 0 0) content-box exclude,linear-gradient(#000 0 0);
+ animation:ray 2.2s linear infinite}
+[data-tilt]:hover::before{opacity:1}
+.card[data-tilt]:hover{border-color:rgba(255,194,26,.2)}
+.js .rv{opacity:0;translate:0 48px;transition:opacity .9s,translate .9s cubic-bezier(.2,.8,.2,1);transition-delay:var(--d,0s)}
+.js .rv.in{opacity:1;translate:0 0}
+
+.alt{position:relative;overflow:hidden}
+.alt::before{content:"";position:absolute;right:-10%;top:-25%;width:46vw;height:46vw;border-radius:50%;background:radial-gradient(circle,rgba(255,194,26,.09),transparent 65%);pointer-events:none}
+.alt .wrap{position:relative}
+.chips{display:flex;flex-wrap:wrap;gap:14px}
+.chips span{padding:16px 28px;border:1px solid var(--line);border-radius:999px;font:700 clamp(16px,1.4vw,21px) "Barlow Condensed",sans-serif;background:var(--bg2);transition:transform .25s,background .25s,color .25s,border-color .25s}
+.chips span:hover{background:var(--y);color:var(--dk);transform:translateY(-6px) rotate(-2deg);border-color:var(--y)}
+.faq details{border:1px solid var(--line);border-radius:16px;background:var(--bg);margin-bottom:12px;padding:0 26px;transition:border-color .3s}
+.faq details:hover,.faq details[open]{border-color:var(--y)}
+.faq summary{cursor:pointer;list-style:none;padding:22px 0;font:700 clamp(18px,1.5vw,22px) "Barlow Condensed",sans-serif;display:flex;justify-content:space-between;gap:16px;align-items:center}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";color:var(--y);font-size:30px;line-height:1;transition:transform .3s}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq details p{margin:0 0 22px;color:var(--mute);max-width:70ch;animation:fd .4s}
+@keyframes fd{from{opacity:0;translate:0 -8px}}
+#cur{position:fixed;left:0;top:0;width:34px;height:34px;margin:-17px 0 0 -17px;border:2px solid var(--y);border-radius:50%;pointer-events:none;z-index:60;opacity:0;transition:width .25s,height .25s,margin .25s,background .25s,opacity .3s}
+#cur.on{opacity:.9}
+#cur.big{width:68px;height:68px;margin:-34px 0 0 -34px;background:rgba(255,194,26,.14)}
+/* ===== SECTION BACKGROUND IMAGES =====
+   Put your own photo in the images folder and change the file name below.
+   Services -> bg-services.jpg | Industries -> bg-industries.jpg | Process -> bg-process.jpg
+   Sample videos -> bg-work.jpg | Why us -> bg-why.jpg | FAQ -> bg-faq.jpg | Contact -> bg-contact.jpg
+   Home (top) -> hero-bg.jpg (see .hero below) */
+section[id]{position:relative;overflow:hidden;background:var(--bg)}
+section[id]>.wrap{position:relative;z-index:1}
+.bgl{position:absolute;inset:-110px -60px;z-index:0;pointer-events:none;background:linear-gradient(rgba(23,24,28,.5),rgba(23,24,28,.62)),var(--sbg) center/cover no-repeat,radial-gradient(900px circle at 85% 10%,rgba(255,194,26,.12),transparent 60%);transform:translate3d(0,var(--py,0px),0);will-change:transform}
+.alt::before{display:none}
+#services{--sbg:url("images/bg-services.jpg")}
+#industries{--sbg:url("images/bg-industries.jpg")}
+#film{--sbg:url("images/bg-work.jpg")}
+#process{--sbg:url("images/bg-process.jpg")}
+#work{--sbg:url("images/bg-work.jpg")}
+#why{--sbg:url("images/bg-why.jpg")}
+#faq{--sbg:url("images/bg-faq.jpg")}
+#contact{--sbg:url("images/bg-contact.jpg")}
+.card{background:rgba(32,33,39,.88)}
+.alt .card{background:rgba(23,24,28,.88)}
+form{background:rgba(32,33,39,.9)}
+.faq details{background:rgba(23,24,28,.88)}
+.chips span{background:rgba(32,33,39,.9)}
+@media(min-width:901px){#faq .cgrid{grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);row-gap:clamp(24px,3vw,44px)}#faq .info{grid-column:2;grid-row:1}#faq .faq{grid-column:2;grid-row:2}}
+@media(max-width:1100px){.g4{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:900px){.hero .wrap,.cgrid,.g3{grid-template-columns:1fr}.hero{min-height:0}.stage{height:min(100vw,560px)}nav div a:not(.btn){display:none}.reel{max-width:360px}}
+@media(max-width:560px){.g4,form .two{grid-template-columns:1fr}.logo{font-size:25px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.js .rv{opacity:1;translate:none}html{scroll-behavior:auto}}
+
+/* ===== Branding film section ===== */
+#film{--sbg:none}
+.film{display:grid;grid-template-columns:minmax(0,1fr);gap:clamp(20px,2.4vw,36px);max-width:1280px;margin-inline:auto}
+.cin{position:relative;aspect-ratio:16/9;border-radius:24px;overflow:hidden;background:linear-gradient(160deg,#2e2f38,#17181c);border:1px solid var(--line);box-shadow:0 40px 90px rgba(0,0,0,.55),0 0 0 1px rgba(255,194,26,.08)}
+.cin::after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;box-shadow:inset 0 0 0 1px rgba(255,255,255,.04)}
+.cin video,.cin iframe{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border:0;display:block;background:#000}
+.cin .play{position:absolute;inset:0;z-index:2;display:grid;place-items:center;border:0;padding:0;cursor:pointer;color:var(--dk);background:linear-gradient(rgba(23,24,28,.15),rgba(23,24,28,.55));transition:opacity .4s,visibility .4s}
+.cin .play span{width:clamp(72px,9vw,120px);aspect-ratio:1;border-radius:50%;background:var(--y);display:grid;place-items:center;box-shadow:0 0 0 0 rgba(255,194,26,.5);animation:ping 2.4s ease-out infinite;transition:transform .3s}
+.cin .play:hover span{transform:scale(1.08)}
+.cin .play svg{width:38%;height:38%;fill:var(--dk);margin-left:6%}
+@keyframes ping{to{box-shadow:0 0 0 34px rgba(255,194,26,0)}}
+.cin.on .play{opacity:0;visibility:hidden}
+.cin .ph b{font-size:clamp(20px,2vw,28px)}
+.cin .snd{padding:10px 18px;font-size:14px;right:16px;bottom:16px}
+.cin video{cursor:pointer}
+.fcap{display:flex;justify-content:space-between;align-items:center;gap:16px 32px;flex-wrap:wrap}
+.fcap b{font:700 clamp(24px,2.2vw,34px) "Barlow Condensed",sans-serif}
+.fcap span{color:var(--mute);max-width:56ch}
+.fcap .btn{padding:13px 26px}
+
+/* ===== Social icons ===== */
+.social{display:flex;gap:12px;align-items:center}
+.social a{width:46px;height:46px;border-radius:50%;border:1.5px solid var(--line);display:grid;place-items:center;color:var(--ink);text-decoration:none;background:rgba(32,33,39,.7);transition:transform .25s,background .25s,color .25s,border-color .25s,box-shadow .25s}
+.social a:hover,.social a:focus-visible{background:var(--y);color:var(--dk);border-color:var(--y);transform:translateY(-4px);box-shadow:0 10px 24px rgba(255,194,26,.3)}
+.social svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.info .social{margin-top:30px}
+footer .wrap{align-items:center}
+
+/* ===== Firefly sparks ===== */
+#ff{position:absolute;left:0;top:0;width:46%;height:100%;z-index:0;pointer-events:none;display:block}
+.hero .wrap{position:relative;z-index:1}
+
+/* ===== Digital intro: data stream, pixel assembly, growth chart, glitch, pixel dissolve ===== */
+#portal{display:none}
+.js #portal{display:block;position:fixed;inset:0;z-index:9999;overflow:hidden;cursor:pointer;background:#0b0c0f}
+html.intro,html.intro body{overflow:hidden}
+html.intro .hero h1 i{animation-play-state:paused}
+#portal.go{pointer-events:none}
+#portal canvas{position:absolute;inset:0;width:100%;height:100%;display:block}
+#portal .plogo{position:absolute;left:50%;top:30%;width:64px;height:auto;transform:translateX(-50%);object-fit:contain;border-radius:12px;opacity:0;filter:drop-shadow(0 0 14px rgba(255,194,26,.65))}
+#portal .pskip{position:absolute;right:20px;bottom:20px;background:rgba(23,24,28,.7);color:var(--mute);border:1px solid var(--line);border-radius:999px;padding:9px 18px;font:600 14px Barlow,sans-serif;letter-spacing:.04em;cursor:pointer;transition:opacity .3s}
+#portal.go .pskip{opacity:0}
+</style>
+</head>
+<body>
+<div id="portal" aria-hidden="true">
+  <canvas></canvas>
+  <img class="plogo" src="images/logo.png" alt="" onerror="this.style.display='none'">
+  <button type="button" class="pskip" tabindex="-1">Skip &rsaquo;</button>
+</div>
+<script>
+(function(){
+  var root=document.documentElement,P=document.getElementById("portal");
+  if(!P)return;
+  if(matchMedia("(prefers-reduced-motion:reduce)").matches){P.remove();return}
+  root.classList.add("intro");
+  var cv=P.querySelector("canvas"),x=cv.getContext("2d"),logo=P.querySelector(".plogo");
+  var W,H,D,done=false,raf=0,T0=0,DS=0;
+  var HOLDT=3200,DISS=1100,TXT="PONDY EDITOR";
+  var Y="255,194,26",CH="01▲↗$%◆▶@#+×".split("");
+  var parts=[],cols=[],bars=[],cells=[],cs=24,gx=0,gy=0,fs=100,tw=0,th=0,ox=0,oy=0,ps=2,ls=64;
+  var STAT=["SHOOTING","EDITING","DELIVERING","PROMOTING"];
+  function rnd(a,b){return a+Math.random()*(b-a)}
+  function ease(k){k=k<0?0:k>1?1:k;return 1-Math.pow(1-k,3)}
+
+  function build(){
+    /* name as pixels */
+    var o=document.createElement("canvas"),g=o.getContext("2d"),fam='800 100px "Barlow Condensed","Arial Narrow",Impact,sans-serif';
+    g.font=fam;var m=g.measureText(TXT).width||500;
+    fs=Math.min(150,100*(W*.82)/m);
+    tw=Math.ceil(m*fs/100)+10;th=Math.ceil(fs*1.15);
+    o.width=tw;o.height=th;g=o.getContext("2d");
+    g.font=fam.replace("100px",fs+"px");g.textBaseline="middle";g.fillStyle="#fff";g.fillText(TXT,5,th/2);
+    var d=g.getImageData(0,0,tw,th).data,st=Math.max(3,Math.round(fs/28));ps=st-1;
+    ox=(W-tw)/2;oy=H/2-th/2+10;parts=[];
+    for(var yy=0;yy<th;yy+=st)for(var xx=0;xx<tw;xx+=st){
+      if(d[(yy*tw+xx)*4+3]>128){
+        var r=Math.random();
+        parts.push({tx:ox+xx,ty:oy+yy,sx:rnd(-.1,1.1)*W,sy:rnd(-.1,1.1)*H,d:rnd(0,800)+xx/tw*350,l:rnd(850,1250),c:r<.14?"244,239,228":r<.2?"255,226,140":Y});
+      }
+    }
+    /* data stream columns */
+    cols=[];var n=Math.ceil(W/24);
+    for(var i=0;i<n;i++)cols.push({x:i*24+6,y:rnd(-H,0),v:rnd(2,5.5),s:Array.from({length:6},function(){return CH[(Math.random()*CH.length)|0]})});
+    /* growth bars */
+    bars=[];var nb=Math.min(36,Math.ceil(W/38));
+    for(i=0;i<nb;i++)bars.push((.22+.78*i/(nb-1))*rnd(.62,1));
+    /* dissolve cells */
+    cs=Math.max(22,Math.round(W/40));gx=Math.ceil(W/cs);gy=Math.ceil(H/cs);cells=[];
+    var mx=Math.hypot(gx/2,gy/2);
+    for(var cy=0;cy<gy;cy++)for(var cx=0;cx<gx;cx++)cells.push(Math.hypot(cx-gx/2,cy-gy/2)/mx*.55+Math.random()*.45);
+    ls=Math.max(48,Math.min(84,W*.07));
+    logo.style.width=ls+"px";logo.style.top=Math.max(8,oy-ls-18)+"px";
+  }
+  function size(){
+    D=Math.min(devicePixelRatio||1,2);W=innerWidth;H=innerHeight;
+    cv.width=W*D;cv.height=H*D;build();
+  }
+  function begin(now){
+    if(DS)return;DS=now;P.classList.add("go");P.style.background="transparent";
+  }
+  function fin(){
+    if(done)return;done=true;cancelAnimationFrame(raf);root.classList.remove("intro");P.remove();
+  }
+  function inGlitch(t){return(t>2350&&t<2430)||(t>2780&&t<2870)||(t>3000&&t<3050)}
+
+  function frame(now){
+    if(done)return;
+    raf=requestAnimationFrame(frame);
+    var t=now-T0,u=0;
+    if(!DS&&t>=HOLDT)begin(now);
+    if(DS){u=Math.min(1,(now-DS)/DISS);if(u>.2)root.classList.remove("intro");if(u>=1){fin();return}}
+    var pr=DS?1:Math.min(1,t/2500);
+    x.setTransform(D,0,0,D,0,0);x.globalCompositeOperation="source-over";x.globalAlpha=1;
+    x.fillStyle="#0b0c0f";x.fillRect(0,0,W,H);
+
+    /* 1. data stream */
+    x.font="14px monospace";x.textAlign="left";x.textBaseline="top";
+    for(var i=0;i<cols.length;i++){
+      var c=cols[i];c.y+=c.v;if(c.y>H+90){c.y=rnd(-200,-20);c.v=rnd(2,5.5)}
+      if(Math.random()<.04)c.s[(Math.random()*6)|0]=CH[(Math.random()*CH.length)|0];
+      for(var k=0;k<6;k++){x.fillStyle="rgba("+Y+","+(k?(.22-k*.035):.75)+")";x.fillText(c.s[k],c.x,c.y-k*16)}
+    }
+
+    /* 2. growth chart rising from the bottom */
+    var bh=H*.3,bw=W/bars.length,i2,px=0,py=0;
+    for(i2=0;i2<bars.length;i2++){
+      var lag=i2/bars.length*.45,p=ease((pr-lag)/.55),h=bars[i2]*bh*p;
+      x.fillStyle="rgba("+Y+",.10)";x.fillRect(i2*bw+bw*.18,H-h,bw*.64,h);
+      x.fillStyle="rgba("+Y+",.35)";x.fillRect(i2*bw+bw*.18,H-h,bw*.64,2);
+    }
+    x.strokeStyle="rgba("+Y+",.7)";x.lineWidth=2;x.beginPath();
+    for(i2=0;i2<bars.length;i2++){
+      var lg=i2/bars.length*.45,pp=ease((pr-lg)/.55);if(pp<=0)continue;
+      px=i2*bw+bw/2;py=H-bars[i2]*bh*pp-8;i2?x.lineTo(px,py):x.moveTo(px,py);
+    }
+    x.stroke();
+    if(py){x.fillStyle="rgba("+Y+",.25)";x.beginPath();x.arc(px,py,10,0,6.283);x.fill();x.fillStyle="rgb("+Y+")";x.beginPath();x.arc(px,py,4,0,6.283);x.fill()}
+
+    /* scan line */
+    var sy=(t/1500%1)*H;x.fillStyle="rgba("+Y+",.06)";x.fillRect(0,sy,W,3);
+
+    /* 3. pixels fly in and assemble the name */
+    var sw=-1;if(t>2100&&t<2900)sw=ox+(t-2100)/800*(tw+120)-60;
+    for(var q=0;q<parts.length;q++){
+      var a=parts[q],k2=(t-a.d)/a.l;if(k2<=0)continue;
+      var e=ease(k2),X=a.sx+(a.tx-a.sx)*e,Yy=a.sy+(a.ty-a.sy)*e,col=a.c;
+      if(k2<1){x.fillStyle="rgba("+a.c+","+(.25+.6*e)+")";x.fillRect(X-(a.tx-a.sx)*.012*(1-e),Yy,ps*(1+(1-e)*2.2),ps)}
+      if(k2>=1&&sw>0&&Math.abs(a.tx-sw)<46)col="255,255,255";
+      x.fillStyle="rgb("+col+")";x.fillRect(X,Yy,ps,ps);
+    }
+
+    /* subtitle + status + percent */
+    var sa=Math.max(0,Math.min(1,(t-1900)/500));
+    if(sa>0){
+      var z=Math.max(11,Math.round(fs*.13));x.font="600 "+z+"px Barlow,Arial,sans-serif";x.textAlign="center";
+      if("letterSpacing" in x)x.letterSpacing=(z*.4)+"px";
+      x.fillStyle="rgba(244,239,228,"+(sa*.85)+")";x.fillText("VIDEO  •  MARKETING  •  META ADS",W/2+(("letterSpacing" in x)?z*.2:0),oy+th+z*.8);
+      if("letterSpacing" in x)x.letterSpacing="0px";
+    }
+    x.font="600 13px monospace";x.textAlign="left";x.fillStyle="rgba("+Y+",.9)";
+    x.fillText("> "+STAT[Math.min(3,(pr*4)|0)]+(t%500<250?" _":"  "),22,22);
+    x.textAlign="right";x.fillText(Math.round(pr*100)+"%",W-22,22);
+
+    /* logo */
+    var la=DS?Math.max(0,1-u*5):Math.max(0,Math.min(1,(t-1500)/500));
+    logo.style.opacity=inGlitch(t)?(Math.random()<.5?0:la):la;
+    logo.style.marginLeft=inGlitch(t)?(rnd(-8,8)+"px"):"0px";
+
+    /* 4. glitch bursts: sliced, shifted name + colour flashes */
+    if(!DS&&inGlitch(t)){
+      for(var s=0;s<7;s++){
+        var gy0=oy-10+Math.random()*(th+20),gh=rnd(4,22),off=rnd(-40,40);
+        x.drawImage(cv,0,gy0*D,W*D,gh*D,off,gy0,W,gh);
+      }
+      x.fillStyle="rgba(0,229,255,.12)";x.fillRect(0,oy+rnd(0,th),W,rnd(2,10));
+      x.fillStyle="rgba(255,40,90,.12)";x.fillRect(0,oy+rnd(0,th),W,rnd(2,10));
+    }
+
+    /* 5. pixel-block dissolve revealing the site */
+    if(DS){
+      for(var cy=0;cy<gy;cy++)for(var cx=0;cx<gx;cx++){
+        var r=cells[cy*gx+cx];
+        if(r<=u)x.clearRect(cx*cs,cy*cs,cs+1,cs+1);
+        else if(r<=u+.08){x.fillStyle="rgba("+Y+",.85)";x.fillRect(cx*cs,cy*cs,cs+1,cs+1)}
+      }
+    }
+  }
+  function start(){
+    size();T0=performance.now();raf=requestAnimationFrame(frame);
+    addEventListener("resize",size);
+  }
+  P.addEventListener("click",function(){begin(performance.now())});
+  var go=false;function once(){if(go)return;go=true;start()}
+  try{Promise.race([document.fonts.load('800 100px "Barlow Condensed"'),new Promise(function(r){setTimeout(r,700)})]).then(once,once)}catch(e){once()}
+  setTimeout(once,900);
+  setTimeout(fin,9000); /* safety: never block the site */
+})();
+</script>
+
+<a class="skip" href="#services">Skip to content</a>
+<div id="bar"></div><div id="cur"></div>
+<header class="top"><div class="wrap"><nav>
+  <a class="logo" href="#top"><img src="images/logo.png" alt="" width="44" height="44">Pondy Editor</a>
+  <div><a href="#services">Services</a><a href="#film">Film</a><a href="#process">Process</a><a href="#work">Our work</a><a href="#contact">Contact</a><a class="btn" href="#contact" data-mag>Get a quote</a></div>
+</nav></div></header>
+
+<main id="top">
+<div class="hero" id="hero"><div class="wrap">
+  <div class="hc">
+    <h1><span><i style="--n:0">Professional</i></span> <span><i style="--n:1">video</i></span> <span><i style="--n:2">production</i></span> <br><span class="hl"><i style="--n:3">that</i></span> <span class="hl"><i style="--n:4">turns</i></span> <span class="hl"><i style="--n:5">viewers</i></span> <span class="hl"><i style="--n:6">into</i></span> <span class="hl"><i style="--n:7">customers.</i></span></h1>
+    <p>Pondy Editor is a video and digital marketing team in Puducherry. We shoot, edit and deliver your videos, then run the Meta ads that bring real enquiries to your business.</p>
+    <div class="cta"><a class="btn" href="#contact" data-mag>Get a free quote</a><a class="btn ghost" href="#work" data-mag>Watch our work</a><a class="btn ghost" href="tel:+918270064104" data-mag>Call +91 8270064104</a></div>
+    <ul class="pts"><li>Shooting at your location</li><li>Editing for every platform</li><li>Meta ads that bring leads</li></ul>
+  </div>
+  <div class="stage" aria-hidden="true"><div class="scene" id="scene">
+    <div class="orbs">
+      <div class="orb o1"><div class="rot"><img src="images/circle-1.png" alt="" onerror="this.remove()"></div></div>
+      <div class="orb o2"><div class="rot"><img src="images/circle-2.png" alt="" onerror="this.remove()"></div></div>
+      <div class="orb o3"><div class=""><img src="images/circle-3.png" alt="" onerror="this.remove()"></div></div>
+    </div>
+    <div class="ly bd b1">Meta Ads</div>
+    <div class="ly bd b2">4K Editing</div>
+  </div></div>
+</div></div>
+
+<div class="mq" aria-hidden="true"><div id="mq"><span>Video shooting</span><span>Video editing</span><span>Reels and shorts</span><span>Meta ads</span><span>Digital marketing</span><span>Ad creatives</span><span>Delivery in every format</span></div></div>
+
+<section id="services"><div class="wrap">
+  <div class="sh rv"><h2>Three services. One goal: more customers.</h2><p>Pick one or combine them. Most clients start with a video and grow from there.</p></div>
+  <div class="grid g3">
+    <article class="card rv" data-tilt><div class="ic"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="13" height="14" rx="2"/><path d="m16 10 5-3v10l-5-3z"/></svg></div><h3>Video editing</h3><p>Clean, fast, scroll-stopping edits that match your brand.</p>
+      <ul><li>Reels, shorts and ad creatives</li><li>Product and business promo videos</li><li>Colour grading, sound and subtitles</li><li>Wedding, event and YouTube edits</li></ul></article>
+    <article class="card rv" style="--d:.12s" data-tilt><div class="ic"><svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-8M22 20H2"/></svg></div><h3>Digital marketing</h3><p>A steady plan that brings in enquiries, not just likes.</p>
+      <ul><li>Social media management</li><li>Content calendar and posters</li><li>Google Business and local SEO</li><li>Monthly report in plain language</li></ul></article>
+    <article class="card rv" style="--d:.24s" data-tilt><div class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><path d="M12 3v3M12 18v3"/></svg></div><h3>Meta ads</h3><p>Facebook and Instagram ads built for leads and sales.</p>
+      <ul><li>Campaign setup and targeting</li><li>Ad creatives and video ads</li><li>WhatsApp and lead-form campaigns</li><li>Weekly testing and budget control</li></ul></article>
+  </div>
+</div></section>
+
+<section id="film" class="alt"><div class="wrap">
+  <div class="sh rv"><h2>Meet Pondy Editor</h2><p>A short film about who we are, how we work and what we do for local brands.</p></div>
+  <div class="film rv">
+    <div class="cin" id="cin">
+      <video id="bv" src="./video/brand-film.mp4" poster="images/brand-poster.jpg" preload="metadata" muted loop playsinline></video>
+      <button type="button" class="snd" id="bsnd" aria-label="Turn sound on">Sound off</button>
+    </div>
+    <div class="fcap"><div><b>Our brand film</b><br><span>See our shooting, editing and ad work in one watch.</span></div><a class="btn ghost" href="#contact" data-mag>Start your project</a></div>
+  </div>
+</div></section>
+
+<section id="industries"><div class="wrap">
+  <div class="sh rv"><h2>Who we make videos for</h2><p>If you sell something or offer a service, a good video and a smart ad can bring you customers.</p></div>
+  <div class="chips rv"><span>Restaurants and cafes</span><span>Salons and spas</span><span>Clothing and jewellery shops</span><span>Schools and coaching centres</span><span>Real estate</span><span>Clinics and hospitals</span><span>Weddings and events</span><span>Startups and local brands</span></div>
+</div></section>
+
+<section id="process" class="alt"><div class="wrap">
+  <div class="sh rv"><h2>From video capture to delivery</h2><p>You always know what happens next. Six clear steps, with your approval at each stage.</p></div>
+  <div class="grid g3">
+    <div class="card st rv" data-tilt><b>Step 1</b><h3>Brief and plan</h3><p>We learn your business, customers and goal. You get a shot list and a schedule.</p></div>
+    <div class="card st rv" style="--d:.1s" data-tilt><b>Step 2</b><h3>Shoot</h3><p>Professional camera, lighting and audio at your location, in the format you need.</p></div>
+    <div class="card st rv" style="--d:.2s" data-tilt><b>Step 3</b><h3>Edit</h3><p>Cuts, colour, sound, music, text and subtitles, built for the platform it will run on.</p></div>
+    <div class="card st rv" data-tilt><b>Step 4</b><h3>Review</h3><p>You watch the draft and tell us what to change. Revisions are included.</p></div>
+    <div class="card st rv" style="--d:.1s" data-tilt><b>Step 5</b><h3>Deliver</h3><p>Final files for Instagram, Facebook, YouTube and WhatsApp.</p></div>
+    <div class="card st rv" style="--d:.2s" data-tilt><b>Step 6</b><h3>Promote</h3><p>We run it as a Meta ad or post, then report how many people enquired.</p></div>
+  </div>
+</div></section>
+
+<section id="work"><div class="wrap">
+  <div class="sh rv"><h2>Sample videos</h2><p>Three styles we make often. Tap a video for sound.</p></div>
+  <div class="grid g3 work">
+    <figure class="reel rv"><div class="frame" id="f0" data-tilt><video data-i="0" src="./video/project.mp4" muted loop playsinline preload="metadata"></video></div>
+      <figcaption><b>Project showcase</b><span>Fast cuts, bold text, made for Instagram Reels.</span></figcaption></figure>
+    <figure class="reel rv" style="--d:.12s"><div class="frame" id="f1" data-tilt><video data-i="1" src="./video/sample2.mp4" muted loop playsinline preload="metadata"></video></div>
+      <figcaption><b>Product promo</b><span>Close shots and clean colour for shops and brands.</span></figcaption></figure>
+    <figure class="reel rv" style="--d:.24s"><div class="frame" id="f2" data-tilt><video data-i="2" src="./video/sample3.mp4" muted loop playsinline preload="metadata"></video></div>
+      <figcaption><b>Meta ad creative</b><span>A hook, an offer and a button, built to bring leads.</span></figcaption></figure>
+  </div>
+</div></section>
+
+<section class="alt" id="why"><div class="wrap">
+  <div class="sh rv"><h2>Why businesses choose us</h2></div>
+  <div class="grid g4">
+    <div class="card why rv" data-tilt><h3>One team</h3><p>Shooting, editing and ads under one roof. No hand-offs, no delays.</p></div>
+    <div class="card why rv" style="--d:.1s" data-tilt><h3>On-time delivery</h3><p>You get a date at the start and we keep to it.</p></div>
+    <div class="card why rv" style="--d:.2s" data-tilt><h3>Clear pricing</h3><p>A quote before we begin. No hidden charges.</p></div>
+    <div class="card why rv" style="--d:.3s" data-tilt><h3>Results you can see</h3><p>We report enquiries and cost per lead, not just views.</p></div>
+  </div>
+</div></section>
+
+<section id="faq" class="alt"><div class="wrap cgrid">
+  <div class="info rv"><h2>Questions we often hear</h2><p>Not here? Call or WhatsApp us and we will answer the same day.</p></div>
+  <div class="faq rv">
+    <details><summary>What do you need from me to start?</summary><p>A short brief: what you sell, who your customers are and what you want people to do after watching. We plan the rest with you.</p></details>
+    <details><summary>Do you shoot the videos or only edit?</summary><p>Both. We can shoot at your location and edit, or edit footage you already have.</p></details>
+    <details><summary>Which formats will I receive?</summary><p>Vertical for Reels, Shorts and WhatsApp Status, plus square and wide versions for Facebook and YouTube.</p></details>
+    <details><summary>Can I ask for changes after the first draft?</summary><p>Yes. You review the draft and tell us what to change. Revisions are part of our process.</p></details>
+    <details><summary>How does Meta ads pricing work?</summary><p>There are two parts: the ad budget you pay to Meta, and our service fee. We agree both with you before any campaign goes live.</p></details>
+    <details><summary>Where do you work?</summary><p>We are based in Thavalakuppam, Puducherry, and shoot locally. We also edit videos and run ads online for clients anywhere.</p></details>
+  </div>
+</div></section>
+
+<section id="contact"><div class="wrap cgrid">
+  <div class="info rv">
+    <h2 class="timg nc"><img src="images/contact-heading.png" alt="Tell us about your project" width="534" height="192" draggable="false"></h2>
+    <div class="ctext nc"><picture><source media="(max-width:560px)" srcset="images/contact-text-m.png"><img src="images/contact-text.png" alt="Send a message and we will reply with a plan and a quote." width="407" height="58" draggable="false"></picture></div>
+    <div class="cinfo nc">
+      <button type="button" class="citem" data-k="p" style="--r:6.784" aria-label="Call or WhatsApp us"><img src="images/contact-phone.png" alt="Phone and WhatsApp number" width="176" height="66" draggable="false"></button>
+      <button type="button" class="citem" data-k="e" style="--r:12.202" aria-label="Email us"><img src="images/contact-email.png" alt="Email address" width="317" height="66" draggable="false"></button>
+      <div class="citem" style="--r:8.953"><img src="images/contact-address.png" alt="Our address" width="233" height="108" draggable="false"></div>
+    </div>
+    <div class="social"><a href="https://www.instagram.com/pondy_editor/" target="_blank" rel="noopener noreferrer" aria-label="Pondy Editor on Instagram (opens in a new tab)"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><path d="M17.5 6.5h.01"/></svg></a><a href="https://www.facebook.com/profile.php?id=61578380152134&sk=about_details" target="_blank" rel="noopener noreferrer" aria-label="Pondy Editor on Facebook (opens in a new tab)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a></div>
+  </div>
+  <form id="form" class="rv" novalidate>
+    <input class="hp" type="text" id="trap" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <div class="two">
+      <div><label for="name">Your name</label><input id="name" required autocomplete="name"></div>
+      <div><label for="phone">Phone number</label><input id="phone" type="tel" inputmode="tel" required autocomplete="tel" pattern="[0-9+\s\-]{8,16}" title="Enter a valid phone number"></div>
+    </div>
+    <label for="email">Email</label><input id="email" type="email" required autocomplete="email">
+    <label for="need">What do you need?</label>
+    <select id="need"><option>Video editing</option><option>Video shooting and editing</option><option>Digital marketing</option><option>Meta ads</option><option>Video and ads together</option><option>Not sure yet</option></select>
+    <label for="note">Tell us about your business</label><textarea id="note" rows="4"></textarea>
+    <button class="btn" type="submit" id="send">Send on WhatsApp</button>
+    <div id="msg" role="status" aria-live="polite"></div>
+  </form>
+</div></section>
+</main>
+
+<footer><div class="wrap"><div class="social"><a href="https://www.instagram.com/pondy_editor/" target="_blank" rel="noopener noreferrer" aria-label="Pondy Editor on Instagram (opens in a new tab)"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><path d="M17.5 6.5h.01"/></svg></a><a href="https://www.facebook.com/profile.php?id=61578380152134&sk=about_details" target="_blank" rel="noopener noreferrer" aria-label="Pondy Editor on Facebook (opens in a new tab)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a></div><span>© <span id="yr"></span> Pondy Editor. Rajive Gandhi Nagar, Thavalakuppam.</span><span class="nc"><img class="fimg" src="images/footer-contact.png" alt="Contact details" width="289" height="24" draggable="false"></span></div></footer>
+<a class="wa" aria-label="Chat with Pondy Editor on WhatsApp" href="https://wa.me/918270064104?text=Hi%2C%20I%20need%20a%20video%20quote" target="_blank" rel="noopener">WhatsApp us</a>
+
+<script>
+const $=id=>document.getElementById(id);
+$("yr").textContent=new Date().getFullYear();
+$("mq").innerHTML+=$("mq").innerHTML;
+
+/* Contact images: link is built only on click, so bots cannot harvest the email from the HTML. */
+document.querySelectorAll(".citem[data-k]").forEach(b=>b.addEventListener("click",()=>{location.href=(b.dataset.k==="e"?"mailto:"+atob("cG9uZHllZGl0b3IxMjRAZ21haWwuY29t"):"tel:"+atob("KzkxODI3MDA2NDEwNA=="))}));
+document.querySelectorAll(".nc").forEach(n=>n.addEventListener("contextmenu",e=>e.preventDefault()));
+
+/* Scroll progress and reveal */
+const bar=$("bar");
+addEventListener("scroll",()=>{bar.style.transform="scaleX("+scrollY/(document.documentElement.scrollHeight-innerHeight)+")"},{passive:true});
+const rio=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");rio.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll(".rv").forEach(el=>rio.observe(el));
+
+/* 3D mouse effects (desktop only) */
+const fine=matchMedia("(hover:hover) and (pointer:fine)").matches&&!matchMedia("(prefers-reduced-motion:reduce)").matches;
+if(fine){
+  const cur=$("cur");let tx=0,ty=0,cx=0,cy=0;
+  addEventListener("pointermove",e=>{tx=e.clientX;ty=e.clientY;cur.classList.add("on")});
+  document.addEventListener("pointerover",e=>cur.classList.toggle("big",!!e.target.closest("a,button,summary,[data-tilt],.chips span")));
+  document.documentElement.addEventListener("pointerleave",()=>cur.classList.remove("on"));
+  (function loop(){cx+=(tx-cx)*.18;cy+=(ty-cy)*.18;cur.style.transform=`translate(${cx}px,${cy}px)`;requestAnimationFrame(loop)})();
+  document.querySelectorAll("[data-tilt]").forEach(el=>{
+    el.addEventListener("pointermove",e=>{
+      const r=el.getBoundingClientRect(),x=(e.clientX-r.left)/r.width,y=(e.clientY-r.top)/r.height;
+      el.style.setProperty("--mx",x*100+"%");el.style.setProperty("--my",y*100+"%");
+      el.style.transform=`perspective(900px) rotateX(${(.5-y)*12}deg) rotateY(${(x-.5)*14}deg) translateZ(12px)`;
+    });
+    el.addEventListener("pointerleave",()=>el.style.transform="");
+  });
+  const hero=$("hero"),sc=$("scene");
+  hero.addEventListener("pointermove",e=>{
+    const r=hero.getBoundingClientRect(),x=(e.clientX-r.left)/r.width,y=(e.clientY-r.top)/r.height;
+    sc.style.setProperty("--ry",(x-.5)*50+"deg");sc.style.setProperty("--rx",(.5-y)*28+"deg");
+  });
+  hero.addEventListener("pointerleave",()=>{sc.style.removeProperty("--ry");sc.style.removeProperty("--rx")});
+  document.querySelectorAll("[data-mag]").forEach(b=>{
+    b.addEventListener("pointermove",e=>{const r=b.getBoundingClientRect();b.style.transform=`translate(${(e.clientX-r.left-r.width/2)*.25}px,${(e.clientY-r.top-r.height/2)*.35}px)`});
+    b.addEventListener("pointerleave",()=>b.style.transform="");
+  });
+}
+
+/* Section backgrounds move only with scroll (parallax). Mouse does not affect them. */
+const secs=[...document.querySelectorAll("section[id]")];
+secs.forEach(sec=>{const b=document.createElement("div");b.className="bgl";sec.prepend(b);
+  });
+if(!matchMedia("(prefers-reduced-motion:reduce)").matches){
+  let tick=false;
+  const par=()=>{tick=false;secs.forEach(sec=>{const r=sec.getBoundingClientRect();
+    if(r.bottom<-200||r.top>innerHeight+200)return;
+    const p=(r.top+r.height/2-innerHeight/2)/innerHeight;
+    sec.style.setProperty("--py",Math.max(-95,Math.min(95,-p*130))+"px")})};
+  addEventListener("scroll",()=>{if(!tick){tick=true;requestAnimationFrame(par)}},{passive:true});
+  addEventListener("resize",par);par();
+}
+
+/* Videos: play in view, pause out of view, tap for sound. Missing file shows a placeholder. */
+const igFallback='<iframe src="https://www.instagram.com/reel/De6OWplMRM3/embed" title="Project video" loading="lazy" allowfullscreen></iframe>';
+const names=["video/project.mp4","video/sample2.mp4","video/sample3.mp4"];
+const vio=new IntersectionObserver(es=>es.forEach(e=>{const v=e.target;e.isIntersecting?v.play().catch(()=>{}):v.pause()}),{threshold:.5});
+document.querySelectorAll(".frame video").forEach(v=>{
+  const i=+v.dataset.i,f=$("f"+i);
+  v.addEventListener("error",()=>{f.innerHTML=i===0?igFallback:'<div class="ph"><b>Add your video here</b>Save it as '+names[i]+'</div>'});
+  const b=document.createElement("button");b.className="snd";b.type="button";b.textContent="Sound off";
+  b.onclick=()=>{v.muted=!v.muted;b.textContent=v.muted?"Sound off":"Sound on";document.querySelectorAll(".frame video").forEach(o=>{if(o!==v)o.muted=true});document.querySelectorAll(".snd").forEach(s=>{if(s!==b)s.textContent="Sound off"})};
+  f.appendChild(b);vio.observe(v);
+});
+
+/* Contact form: opens WhatsApp with the enquiry ready to send to +91 8270064104. */
+$("form").addEventListener("submit",e=>{
+  e.preventDefault();
+  if($("trap").value||!$("form").reportValidity())return;
+  const t=`Hi Pondy Editor, I need a quote.\nName: ${$("name").value}\nPhone: ${$("phone").value}\nEmail: ${$("email").value}\nNeed: ${$("need").value}\n${$("note").value}`;
+  window.open("https://wa.me/918270064104?text="+encodeURIComponent(t),"_blank","noopener");
+  $("msg").style.color="#7ee0a1";$("msg").textContent="WhatsApp is opening with your message. Press send there to finish.";
+  $("form").reset();
+});
+
+/* Branding film: plays automatically (muted) when on screen, pauses when off screen. Sound is opt-in. */
+(function(){
+  const cin=$("cin"),v=$("bv"),sb=$("bsnd");if(!cin)return;
+  v.muted=true;
+  new IntersectionObserver(es=>es.forEach(e=>{
+    if(e.isIntersecting){v.play().catch(()=>{})}else{v.pause();if(!v.muted){v.muted=true;sb.textContent="Sound off"}}
+  }),{threshold:.5}).observe(cin);
+  sb.addEventListener("click",()=>{v.muted=!v.muted;sb.textContent=v.muted?"Sound off":"Sound on";sb.setAttribute("aria-label",v.muted?"Turn sound on":"Turn sound off");if(v.paused)v.play().catch(()=>{});
+    document.querySelectorAll(".frame video").forEach(o=>o.muted=true);document.querySelectorAll(".frame .snd").forEach(b=>b.textContent="Sound off")});
+  v.addEventListener("click",()=>{v.paused?v.play().catch(()=>{}):v.pause()});
+  v.addEventListener("error",()=>{cin.innerHTML='<div class="ph"><b>Add your branding video here</b>Save it as video/brand-film.mp4</div>'});
+})();
+
+/* Firefly sparks (left side of the first screen only): one lightweight canvas, soft sprites, pauses when the tab is hidden. */
+(function(){
+  if(matchMedia("(prefers-reduced-motion:reduce)").matches)return;
+  const hero=$("hero");if(!hero)return;const c=document.createElement("canvas");c.id="ff";c.setAttribute("aria-hidden","true");hero.prepend(c);
+  const x=c.getContext("2d"),sp=document.createElement("canvas");sp.width=sp.height=64;
+  const g=sp.getContext("2d"),gr=g.createRadialGradient(32,32,0,32,32,32);
+  gr.addColorStop(0,"rgba(255,246,200,1)");gr.addColorStop(.18,"rgba(255,214,90,.85)");gr.addColorStop(.5,"rgba(255,184,30,.22)");gr.addColorStop(1,"rgba(255,184,30,0)");
+  g.fillStyle=gr;g.fillRect(0,0,64,64);
+  let W,H,D,F=[],raf=0,last=0;
+  const rnd=(a,b)=>a+Math.random()*(b-a);
+  function mk(){return{x:rnd(0,W),y:rnd(0,H),a:rnd(0,6.283),s:rnd(.12,.38),p:rnd(0,6.283),f:rnd(.5,1.5),t:rnd(.3,.9),r:rnd(14,30)}}
+  function size(){D=Math.min(devicePixelRatio||1,1.5);W=c.clientWidth||300;H=c.clientHeight||300;c.width=W*D;c.height=H*D;x.setTransform(D,0,0,D,0,0);
+    const n=Math.round(Math.max(10,Math.min(26,W*H/40000)));while(F.length<n)F.push(mk());F.length=n}
+  addEventListener("resize",size);size();let vis=true;new IntersectionObserver(e=>{vis=e[0].isIntersecting;vis&&!document.hidden?go():stop()}).observe(hero);
+  function draw(now){
+    raf=requestAnimationFrame(draw);
+    const dt=Math.min(.05,(now-last)/1000||.016);last=now;const T=now/1000;
+    x.clearRect(0,0,W,H);x.globalCompositeOperation="lighter";
+    for(const q of F){
+      q.a+=Math.sin(T*q.t+q.p)*.9*dt;
+      q.x+=Math.cos(q.a)*q.s*60*dt;q.y+=Math.sin(q.a)*q.s*60*dt-.04;
+      if(q.x<-40)q.x=W+40;else if(q.x>W+40)q.x=-40;if(q.y<-40)q.y=H+40;else if(q.y>H+40)q.y=-40;
+      const b=Math.sin(T*q.f+q.p),al=b>0?b*b*b:0;
+      if(al<.02)continue;
+      x.globalAlpha=al*.8;x.drawImage(sp,q.x-q.r/2,q.y-q.r/2,q.r,q.r);
+    }
+    x.globalAlpha=1;
+  }
+  function go(){if(!raf){last=performance.now();raf=requestAnimationFrame(draw)}}
+  function stop(){cancelAnimationFrame(raf);raf=0}
+  document.addEventListener("visibilitychange",()=>document.hidden||!vis?stop():go());
+  go();
+})();
+</script>
+</body>
+</html>
